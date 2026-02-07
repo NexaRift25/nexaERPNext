@@ -1,4 +1,4 @@
-name: Frappe Docker Build and Push Nexar POS
+name: Frappe Docker Build and Push Nexa ERPNext
 
 on:
   workflow_dispatch:
@@ -46,7 +46,7 @@ jobs:
             },
             {
               "url": "https://github.com/NexaRift25/nexaERPNext.git",
-              "branch": "main"
+              "branch": "${{ inputs.branch }}"
             }
           ]'
 
